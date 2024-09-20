@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+    background-color: grey;
+    border:dotted blue 9px;
+}
+.border {
+    border: solid blue 4px;
+}

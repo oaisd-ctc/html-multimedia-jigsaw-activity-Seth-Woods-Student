@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>media</title>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <h1>video element</h1>
+    <video width="500" height="400" poster="poster.png" controls class="border">
+        <source src="Raindrops_Videvo.mp4" type="video/mp4">
+    </video>
+
+    <h1>audio element</h1>
+    <audio controls class="border">
+        <source src="mixaund-feel.mp3" type="audio/mp3">
+    </audio><br><br>
+    <h1>iframe element</h1>
+    <iframe src="Https://example.com" height="200" width="600" class="border">
+
+    </iframe><br><br>
+
+
+    <canvas width="150" hight="150" id="myCanvas">
+
+    </canvas>
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#0066A0";
+        ctx.fillRect(0, 0, 150, 75);
+    </script><br>
+    <svg width="100" height="100" > 
+        <circle cx="50" cy="50" r="40" fill="#FF0000">
+    </svg><br><br>
+
+    <svg width="200" height="110" >
+        <rect width="200" height="110" fill="teal">
+    </svg><br>
+    <svg height="150" width="250" >
+        <ellipse cx="110" cy="60" rx="100" ry="50" style="fill:pink">        
+    </svg><br>
+    <svg width="200" height="110" >
+        <line x1="0" y1="0" x2="100" y2="200" style="stroke:black;stroke-width:2">
+    </svg><br>
+    <svg width="300" height="300" >
+        <polygon points="0,300 300,300 150,0" style="fill:#FFFF00; stroke:#FF0000; stroke-width:3">
+    </svg>
+</body>
+
+</html>
